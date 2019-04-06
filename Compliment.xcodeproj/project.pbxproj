@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CD08ECAB2258731300C3EF3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD08ECAA2258731300C3EF3B /* AppDelegate.swift */; };
-		CD08ECAD2258731300C3EF3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD08ECAC2258731300C3EF3B /* ViewController.swift */; };
+		CD08ECAD2258731300C3EF3B /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD08ECAC2258731300C3EF3B /* CreateViewController.swift */; };
 		CD08ECB22258731400C3EF3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD08ECB12258731400C3EF3B /* Assets.xcassets */; };
 		CD08ECB52258731400C3EF3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD08ECB32258731400C3EF3B /* LaunchScreen.storyboard */; };
 		CD08ECC02258731400C3EF3B /* ComplimentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD08ECBF2258731400C3EF3B /* ComplimentTests.swift */; };
@@ -35,7 +35,7 @@
 /* Begin PBXFileReference section */
 		CD08ECA72258731300C3EF3B /* Compliment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Compliment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD08ECAA2258731300C3EF3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CD08ECAC2258731300C3EF3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD08ECAC2258731300C3EF3B /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
 		CD08ECB12258731400C3EF3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD08ECB42258731400C3EF3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD08ECB62258731400C3EF3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -133,7 +133,7 @@
 		CD08ECDB2258745000C3EF3B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				CD08ECAC2258731300C3EF3B /* ViewController.swift */,
+				CD08ECAC2258731300C3EF3B /* CreateViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -268,7 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD08ECAD2258731300C3EF3B /* ViewController.swift in Sources */,
+				CD08ECAD2258731300C3EF3B /* CreateViewController.swift in Sources */,
 				CD08ECAB2258731300C3EF3B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
