@@ -14,6 +14,15 @@
 		CD08ECB52258731400C3EF3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD08ECB32258731400C3EF3B /* LaunchScreen.storyboard */; };
 		CD08ECC02258731400C3EF3B /* ComplimentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD08ECBF2258731400C3EF3B /* ComplimentTests.swift */; };
 		CD08ECCB2258731400C3EF3B /* ComplimentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD08ECCA2258731400C3EF3B /* ComplimentUITests.swift */; };
+		CD08ECF422587C3600C3EF3B /* ComplimentOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD08ECF322587C3600C3EF3B /* ComplimentOrientation.swift */; };
+		CD08ECF722587CC500C3EF3B /* CreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD08ECF622587CC500C3EF3B /* CreateView.swift */; };
+		CD08ECF922587F8F00C3EF3B /* ComplimentScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD08ECF822587F8F00C3EF3B /* ComplimentScrollView.swift */; };
+		CD08ECFB225884B600C3EF3B /* ComplimentNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD08ECFA225884B600C3EF3B /* ComplimentNotificationManager.swift */; };
+		CD08ED0022588D9600C3EF3B /* CheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD08ECFF22588D9600C3EF3B /* CheckViewController.swift */; };
+		CD08ED0222588F1A00C3EF3B /* SelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD08ED0122588F1A00C3EF3B /* SelectViewController.swift */; };
+		CD08ED0422588F5000C3EF3B /* SelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD08ED0322588F5000C3EF3B /* SelectView.swift */; };
+		CD08ED06225897D700C3EF3B /* CheckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD08ED05225897D700C3EF3B /* CheckView.swift */; };
+		CD08ED082258994200C3EF3B /* CheckCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD08ED072258994200C3EF3B /* CheckCollectionViewCell.swift */; };
 		D431583E373999BDED711220 /* Pods_ComplimentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 826D6CE3F53B7BE4CE8EF6B2 /* Pods_ComplimentTests.framework */; };
 		FBAC7FEF99D9A4BA025BE7F9 /* Pods_Compliment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9005F81EE2F487AAC3F5CFA /* Pods_Compliment.framework */; };
 /* End PBXBuildFile section */
@@ -56,6 +65,15 @@
 		CD08ECC62258731400C3EF3B /* ComplimentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComplimentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD08ECCA2258731400C3EF3B /* ComplimentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplimentUITests.swift; sourceTree = "<group>"; };
 		CD08ECCC2258731400C3EF3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD08ECF322587C3600C3EF3B /* ComplimentOrientation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplimentOrientation.swift; sourceTree = "<group>"; };
+		CD08ECF622587CC500C3EF3B /* CreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateView.swift; sourceTree = "<group>"; };
+		CD08ECF822587F8F00C3EF3B /* ComplimentScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplimentScrollView.swift; sourceTree = "<group>"; };
+		CD08ECFA225884B600C3EF3B /* ComplimentNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplimentNotificationManager.swift; sourceTree = "<group>"; };
+		CD08ECFF22588D9600C3EF3B /* CheckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckViewController.swift; sourceTree = "<group>"; };
+		CD08ED0122588F1A00C3EF3B /* SelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectViewController.swift; sourceTree = "<group>"; };
+		CD08ED0322588F5000C3EF3B /* SelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectView.swift; sourceTree = "<group>"; };
+		CD08ED05225897D700C3EF3B /* CheckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckView.swift; sourceTree = "<group>"; };
+		CD08ED072258994200C3EF3B /* CheckCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckCollectionViewCell.swift; sourceTree = "<group>"; };
 		F57DB748A87F565AAF696292 /* Pods-ComplimentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComplimentUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ComplimentUITests/Pods-ComplimentUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -137,7 +155,9 @@
 			children = (
 				CD08ECDA2258744800C3EF3B /* Support */,
 				CD08ECDB2258745000C3EF3B /* Controller */,
+				CD08ECF522587CB900C3EF3B /* View */,
 				CD08ECB62258731400C3EF3B /* Info.plist */,
+				CD08ECF122587C1C00C3EF3B /* Utility */,
 			);
 			path = Compliment;
 			sourceTree = "<group>";
@@ -174,8 +194,39 @@
 			isa = PBXGroup;
 			children = (
 				CD08ECAC2258731300C3EF3B /* CreateViewController.swift */,
+				CD08ED0122588F1A00C3EF3B /* SelectViewController.swift */,
+				CD08ECFF22588D9600C3EF3B /* CheckViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		CD08ECF122587C1C00C3EF3B /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				CD08ECF222587C2900C3EF3B /* Supporting */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		CD08ECF222587C2900C3EF3B /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				CD08ECF322587C3600C3EF3B /* ComplimentOrientation.swift */,
+				CD08ECF822587F8F00C3EF3B /* ComplimentScrollView.swift */,
+				CD08ECFA225884B600C3EF3B /* ComplimentNotificationManager.swift */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		CD08ECF522587CB900C3EF3B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CD08ECF622587CC500C3EF3B /* CreateView.swift */,
+				CD08ED0322588F5000C3EF3B /* SelectView.swift */,
+				CD08ED05225897D700C3EF3B /* CheckView.swift */,
+				CD08ED072258994200C3EF3B /* CheckCollectionViewCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -403,8 +454,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD08ECF422587C3600C3EF3B /* ComplimentOrientation.swift in Sources */,
+				CD08ED082258994200C3EF3B /* CheckCollectionViewCell.swift in Sources */,
 				CD08ECAD2258731300C3EF3B /* CreateViewController.swift in Sources */,
+				CD08ECF722587CC500C3EF3B /* CreateView.swift in Sources */,
+				CD08ECF922587F8F00C3EF3B /* ComplimentScrollView.swift in Sources */,
+				CD08ED0222588F1A00C3EF3B /* SelectViewController.swift in Sources */,
+				CD08ECFB225884B600C3EF3B /* ComplimentNotificationManager.swift in Sources */,
 				CD08ECAB2258731300C3EF3B /* AppDelegate.swift in Sources */,
+				CD08ED0022588D9600C3EF3B /* CheckViewController.swift in Sources */,
+				CD08ED0422588F5000C3EF3B /* SelectView.swift in Sources */,
+				CD08ED06225897D700C3EF3B /* CheckView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

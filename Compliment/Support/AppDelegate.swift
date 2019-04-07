@@ -12,17 +12,23 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
   var window: UIWindow?
-
+  var orientationLock = UIInterfaceOrientationMask.all
 
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-    
+    self.orientationLock = .portrait
+
     let createViewController = CreateViewController()
+    let createViewNavigationContoller = UINavigationController(rootViewController: createViewController)
     
     window = UIWindow(frame: UIScreen.main.bounds)
-    window?.rootViewController = createViewController
+    window?.rootViewController = createViewNavigationContoller
     window?.makeKeyAndVisible()
     
     return true
+  }
+  
+  func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask {
+    return self.orientationLock
   }
 
   func applicationWillResignActive(_ application: UIApplication) {
