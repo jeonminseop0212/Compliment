@@ -6,6 +6,7 @@ target 'Compliment' do
   use_frameworks!
 
 pod "TinyConstraints"
+pod 'RealmSwift'
 
   # Pods for Compliment
 
